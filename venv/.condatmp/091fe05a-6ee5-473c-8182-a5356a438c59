@@ -1,0 +1,12 @@
+prefix=e:/Houseprice/venv/Library
+exec_prefix=e:/Houseprice/venv/Library
+libdir=e:/Houseprice/venv/Library/lib
+includedir=e:/Houseprice/venv/Library/include
+
+Name: libzmq
+Description: 0MQ c++ library
+Version: 4.3.4
+Libs: -L${libdir} -lzmq
+Libs.private: -lstdc++ 
+Requires.private: 
+Cflags: -I${includedir} 
