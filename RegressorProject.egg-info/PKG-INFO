@@ -3,3 +3,9 @@ Name: RegressorProject
 Version: 0.0.1
 Author: Krissh
 Author-email: krish.naik@ineuron.ai
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: seaborn
+Requires-Dist: scikit-learn
+Requires-Dist: Flask
